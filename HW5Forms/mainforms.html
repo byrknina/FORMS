@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Форма реєстрації</title>
+  </head>
+  <body>
+    <h1 align="left">ФОРМА РЕЄСТРАЦІЇ</h1>
+    <form id="Форма реєстрації">
+      <div>
+        ПРО СЕБЕ <br />
+        <label>
+          ПІБ
+          <input type="text" placeholder="Введіть свої дані" />
+        </label>
+        <label>
+          АДРЕСА
+          <input type="text" placeholder="Введіть свої дані" />
+        </label>
+        <label>
+          ВІК
+          <input type="number" min="18" placeholder="Введіть свої дані" />
+        </label>
+        <label>
+          ЕЛЕКТРОННА АДРЕСА
+          <input type="text" placeholder="Введіть свої дані" />
+        </label>
+      </div>
+      <hr />
+      <div>
+        МІСЦЕ РОБОТИ <br />
+        <label>
+          АДРЕСА ОРГАНІЗАЦІЇ
+          <input type="text" placeholder="Введіть свої дані" />
+        </label>
+        <label>
+          СТАЖ РОБОТИ
+          <input type="number" placeholder="Введіть свої дані" />
+        </label>
+        <label>
+          ДАТА ПОЧАТКУ РОБОТИ
+          <input type="date" placeholder="Введіть свої дані" />
+        </label>
+      </div>
+      <hr />
+      <div>
+        СТАТИСТИЧНИЙ ОПИТУВАЛЬНИК <br />
+        <label>
+          Як оцінюєте роботу Президента
+          <select name="Як оцінюєте роботу Президента">
+            <option value="A">Позитивно</option>
+            <option value="B">Негативно</option>
+            <option value="C">Ніяк</option>
+          </select>
+        </label>
+      </div>
+      <hr />
+      <div>
+        <label>
+          Коментар стосовно останніх виборів
+          <textarea
+            name="userText"
+            cols="40"
+            rows="20"
+            placeholder="Введіть Ваш текст"
+          ></textarea>
+        </label>
+      </div>
+      <hr />
+      <div>
+        <label>
+          Найкращий місяць для відпустки
+          <input type="text" placeholder="Вкажіть назву місяця" />
+        </label>
+      </div>
+      <hr />
+      <div>
+        <fieldset>
+          <legend>Ваша улюблена кава</legend>
+          <label>
+            ЕСПРЕСО
+            <input type="radio" name="coffee" />
+          </label>
+          <label>
+            ЛАТЕ
+            <input type="radio" name="coffee" />
+          </label>
+          <label>
+            КАПУЧІНО
+            <input type="radio" name="coffee" />
+          </label>
+          <label> ФЛЕТ ВАЙТ <input type="radio" name="coffee" /> </label>
+        </fieldset>
+      </div>
+      <hr />
+      <div>
+        <fieldset>
+          <legend>Ваше улюблене місце відпочинку</legend>
+          <label>
+            НА МОРІ
+            <input type="checkbox" name="" value="МОРЕ" />
+          </label>
+          <label>
+            У ЛІСІ
+            <input type="checkbox" name="" value="ЛІС" />
+          </label>
+          <label>
+            НА РІЧЦІ
+            <input type="checkbox" name="" value="РІЧКА" />
+          </label>
+          <label>
+            ВДОМА
+            <input type="checkbox" name="" value="ДІМ" />
+          </label>
+        </fieldset>
+      </div>
+      <hr />
+      <div>
+        <fieldset>
+          <legend>Ваша улюблена марка авто</legend>
+          <label>
+            <select name="Авто">
+              <option value="A">MERCEDES</option>
+              <option value="B">BMW</option>
+              <option value="C">VW</option>
+              <option value="D">SUBARU</option>
+              <option value="E">KIA</option>
+              <option value="F">TESLA</option>
+            </select>
+          </label>
+        </fieldset>
+      </div>
+      <hr />
+      <div>
+        <fieldset>
+          <legend>Улюблені овочі</legend>
+          <label>
+            <select name="vegetables">
+              <optgroup label="зелені">
+                <option value="b1">огірок</option>
+                <option value="b2">цукіні</option>
+              </optgroup>
+              <optgroup label="червоні">
+                <option value="a1">томати</option>
+                <option value="a2">буряк</option>
+              </optgroup>
+              <optgroup label="жовті/помаранчеві">
+                <option value="b1">перець</option>
+                <option value="b2">морква</option>
+              </optgroup>
+            </select>
+          </label>
+        </fieldset>
+      </div>
+      <button type="reset" id="#Форма реєстрації">Очистити форму</button>
+      <hr />
+      <button type="submit" id="#Форма реєстрації">Відправити форму</button>
+    </form>
+  </body>
+</html>
